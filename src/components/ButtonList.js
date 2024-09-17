@@ -2,7 +2,7 @@ import Button from "./Button";
 
 const ButtonList = () => {
   return (
-    <div className="flex overflow-x-scroll scrollbar-hide">
+    <div className="flex w-screen overflow-x-scroll scrollbar-hide">
       <Button name="All" />
       <Button name="Shorts" />
       <Button name="Videos" />

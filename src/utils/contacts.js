@@ -5,3 +5,7 @@ export const YOUTUBELOGO = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAdwAAA
 export const SEARCHICON = "https://cdn-icons-png.flaticon.com/128/17216/17216943.png";
 
 export const USERICON = "https://banner2.cleanpng.com/20190227/zox/kisspng-clip-art-computer-icons-openclipart-user-vector-gr-my-svg-png-icon-free-download-14-352-onlinewe-1713904397626.webp";
+
+const YOUTUBEAPIKEY = "AIzaSyDC2omfXJbcGh86KYwbzJ7V5pD9-Gczx_4"
+
+export const YOUTUBEAPI = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" + YOUTUBEAPIKEY;

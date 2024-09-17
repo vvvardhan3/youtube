@@ -11,7 +11,7 @@ const Head = () => {
   
 
   return (
-    <div className=" flex  p-4 m-1 shadow-lg justify-between ">
+    <div className="w-screen flex p-4 m-1 shadow-lg justify-between ">
       <div className="flex  cursor-pointer gap-3 ">
         <img
           onClick={() => handletoggleMenu()}
