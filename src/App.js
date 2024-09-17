@@ -4,7 +4,7 @@ import Head from "./components/Head";
 
 function App() {
   return (
-    <div className="text-3xl ">
+    <div>
       <Head />
       <Body />
     </div>

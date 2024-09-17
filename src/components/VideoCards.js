@@ -1,7 +1,7 @@
 const VideoCards = () => {
     return (
         <div>
-            Video cards
+           
         </div>
     )
 }
