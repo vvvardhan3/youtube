@@ -9,3 +9,5 @@ export const USERICON = "https://banner2.cleanpng.com/20190227/zox/kisspng-clip-
 const YOUTUBEAPIKEY = "AIzaSyDC2omfXJbcGh86KYwbzJ7V5pD9-Gczx_4"
 
 export const YOUTUBEAPI = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" + YOUTUBEAPIKEY;
+
+export const YOUTUBESEARCHSUGGESTIONSAPI = "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";

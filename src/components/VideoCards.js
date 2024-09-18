@@ -2,7 +2,6 @@ const VideoCards = ({ info }) => {
     if (info === undefined) {
         return 
     }
-    console.log(info)
   const {snippet, statistics} = info;
   const {channelTitle, title, thumbnails} = snippet;
   const {viewCount} = statistics;
